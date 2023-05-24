@@ -1,12 +1,12 @@
 import React from "react";
 import TouchTypingApp from "./components/TouchTypingApp";
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <div className="App">
       <TouchTypingApp />
     </div>
   );
-};
+}
 
 export default App;
